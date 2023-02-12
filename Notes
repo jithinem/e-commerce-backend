@@ -1,0 +1,26 @@
+SERVER CREATION OF E-COMMERCE
+
+1.Create package.json file- npm init
+2.Create nodemodules- Install express- npm i express
+3.Create index.js (Main entry point)
+4.In index.js,
+     i)import express
+     ii)create an application using express
+     iii)set up a port number
+     iv)use json parser for server responses
+5.Integration-
+        i) Install cors- npm i cors
+        ii)import cors to index.js
+        iii)using cors, specify the origin to the server 
+               origin:'http://localhost:4200'
+6.Service- create a folder service, also create two files
+              1)dataService.js
+              2)db.js
+7.Backend and mpngodb connection
+          i)install mongoose- npm i mongoose
+          ii)import mongoose into db.js
+8.Resolving API calls in index.js
+                i)import dataServices
+9.Create logic in dataServices
+            i)import db
+            ii)define function
